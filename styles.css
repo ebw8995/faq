@@ -1,0 +1,59 @@
+.container {
+    margin: 0 auto;
+    min-width: 500px;
+    width: 75%;
+    background: rgba(0,0,0,0.4);
+    color: grey;
+    padding: 15px 50px 75px;;
+}
+
+body {
+    color: #3b3b3b;
+    margin: 50px 150px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: url(assets/wallpaper.jpg)right;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.panel {
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 200;
+    border: 1px solid #f7f7f6;
+}
+
+.question {
+    padding: 15px;
+    background-color: #f7f7f6;
+}
+
+.question:hover {
+    color: #149ed8;
+}
+
+.arrow {
+    width: 17px;
+    height: 11px;
+    float: right;
+    margin-top: 5px;
+}
+
+.answer {
+    padding: 25px;
+    color: white;
+}
+
+.collapse {
+    display: none;
+}
+
+.gif {
+    margin: 0 auto;
+}
+
